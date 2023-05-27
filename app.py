@@ -61,7 +61,7 @@ if not model_type == 'YOLO Model':
 
     # v8n model
     MODEL_DIR = ROOT / 'weights'
-    DETECTION_MODEL_8 = MODEL_DIR / 'best.pt'
+    DETECTION_MODEL_8 = MODEL_DIR / 'best_indian.pt'
     model_path_8 = Path(DETECTION_MODEL_8)
 
 
